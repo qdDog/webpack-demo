@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./hldm.woff') format('woff'), url('./hldm.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: blue;
+}
