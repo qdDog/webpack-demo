@@ -86,7 +86,7 @@ module.exports = merge(common, {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin()
   ],
-  // commonChunkPlugin被移除了
+  
   // 提取公共代码
   optimization: {
     splitChunks: {
